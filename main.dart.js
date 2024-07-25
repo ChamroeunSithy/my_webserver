@@ -31217,11 +31217,9 @@ _.c=c
 _.d=d
 _.e=e
 _.f=f},
-aoe:function aoe(a,b,c,d){var _=this
-_.a=a
-_.b=b
-_.c=c
-_.d=d},
+aoe:function aoe(a,b,c){this.b=a
+this.c=b
+this.d=c},
 aIz:function aIz(a,b,c){this.a=a
 this.b=b
 this.c=c},
@@ -113122,40 +113120,40 @@ if(J.c(p.gi(0),""))A.hs(B.eB,!0)
 return A.v(null,r)}})
 return A.w($async$xZ,r)},
 I9(a){return this.aHp(a)},
-aHp(a){var s=0,r=A.x(t.G7),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b
-var $async$I9=A.t(function(a1,a2){if(a1===1)return A.u(a2,r)
-while(true)switch(s){case 0:e=A.cw("https://api.beta.fwcms.co/api/v1/companies/profile",0,null)
-d=t.N
-c=A.aH(["Authorization","Bearer "+A.j(p.cx.gi(0)),"Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Headers",u.d],d,d)
+aHp(a){var s=0,r=A.x(t.G7),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c
+var $async$I9=A.t(function(a0,a1){if(a0===1)return A.u(a1,r)
+while(true)switch(s){case 0:f=A.cw("https://api.beta.fwcms.co/api/v1/companies/profile",0,null)
+e=t.N
+d=A.aH(["Authorization","Bearer "+A.j(p.cx.gi(0)),"Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Headers",u.d],e,e)
 s=3
-return A.r(A.tM(e,A.aH(["session_id",a],d,d),c),$async$I9)
-case 3:b=a2
-if(b.b===200)try{e=b
-o=B.a3.cS(0,A.bY(J.V(A.bX(e.e).c.a,"charset")).be(0,e.w),null)
-e=J.V(o,"data")
-d=J.a8(e)
-d.h(e,"id")
-d.h(e,"hash_id")
-c=d.h(e,"employer")
-n=J.a8(c)
-m=n.h(c,"certificate_url")
-l=n.h(c,"company_name_in_khmer")
-k=n.h(c,"company_name_in_english")
-j=n.h(c,"acknowledge_as")
-n.h(c,"quota_session")
-c=d.h(e,"detail")
-n=J.a8(c)
-i=A.ayH(n.h(c,"office_employee"))
-h=A.ayH(n.h(c,"skilled_employee"))
-g=A.ayH(n.h(c,"unskilled_employee"))
-c=A.ayH(n.h(c,"total"))
-e=d.h(e,"summary")
-d=J.a8(e)
-p.cy=new A.Fb(new A.ajc(new A.aoe(m,l,k,j),new A.akL(i,h,g,c),new A.aIz(d.h(e,"used_quota"),d.h(e,"available_quota"),d.h(e,"pending_quota"))))}catch(a0){}else if(b.b===422){e=b
-A.k7(J.V(B.a3.cS(0,A.bY(J.V(A.bX(e.e).c.a,"charset")).be(0,e.w),null),"message"))}else if(b.b===400){e=b
-A.k7(J.V(B.a3.cS(0,A.bY(J.V(A.bX(e.e).c.a,"charset")).be(0,e.w),null),"message"))}else{e=b
-A.co().$1(A.bY(J.V(A.bX(e.e).c.a,"charset")).be(0,e.w))
-A.co().$1("Error: "+b.b)}q=p.cy
+return A.r(A.tM(f,A.aH(["session_id",a],e,e),d),$async$I9)
+case 3:c=a1
+if(c.b===200)try{f=c
+o=B.a3.cS(0,A.bY(J.V(A.bX(f.e).c.a,"charset")).be(0,f.w),null)
+f=J.V(o,"data")
+e=J.a8(f)
+e.h(f,"id")
+e.h(f,"hash_id")
+d=e.h(f,"employer")
+n=J.a8(d)
+n.h(d,"certificate_url")
+m=n.h(d,"company_name_in_khmer")
+l=n.h(d,"company_name_in_english")
+k=n.h(d,"acknowledge_as")
+n.h(d,"quota_session")
+d=e.h(f,"detail")
+n=J.a8(d)
+j=A.ayH(n.h(d,"office_employee"))
+i=A.ayH(n.h(d,"skilled_employee"))
+h=A.ayH(n.h(d,"unskilled_employee"))
+d=A.ayH(n.h(d,"total"))
+f=e.h(f,"summary")
+e=J.a8(f)
+p.cy=new A.Fb(new A.ajc(new A.aoe(m,l,k),new A.akL(j,i,h,d),new A.aIz(e.h(f,"used_quota"),e.h(f,"available_quota"),e.h(f,"pending_quota"))))}catch(b){}else if(c.b===422){f=c
+A.k7(J.V(B.a3.cS(0,A.bY(J.V(A.bX(f.e).c.a,"charset")).be(0,f.w),null),"message"))}else if(c.b===400){f=c
+A.k7(J.V(B.a3.cS(0,A.bY(J.V(A.bX(f.e).c.a,"charset")).be(0,f.w),null),"message"))}else{f=c
+A.co().$1(A.bY(J.V(A.bX(f.e).c.a,"charset")).be(0,f.w))
+A.co().$1("Error: "+c.b)}q=p.cy
 s=1
 break
 case 1:return A.v(q,r)}})
@@ -113964,12 +113962,7 @@ l===$&&A.b()
 if(J.c(l,""))l=j
 else{l=$.en
 if(l!=null)l.M(0,p.d8$)
-l=p.cJ$}l=new A.jp(r,l,!0,j,new A.ay7(i),j)}n[m]=new A.dq(A.q(B.Y,l,B.e,j,j,j,j,68,j,j,j,j,j,j),j)}s[o]=new A.ae(n)}h=A.aU(A.q(B.Y,A.bH(j,s,B.as,B.N),B.e,j,B.q4,h.c.d,j,j,j,j,B.j1,j,j,j),2)
-r=A.e("qoutaCertificate")
-i=i.cy.a
-if(i==null)i=j
-else i=i.c.a
-i=A.a6(A.Y(A.a([h,A.aU(A.ol(!0,B.H0,j,j,j,r,i==null?"":i,!0),1)],t.C),j,10),B.j,B.k,B.i,j)}return i},
+l=p.cJ$}l=new A.jp(r,l,!0,j,new A.ay7(i),j)}n[m]=new A.dq(A.q(B.Y,l,B.e,j,j,j,j,68,j,j,j,j,j,j),j)}s[o]=new A.ae(n)}i=A.a6(A.Y(A.a([A.aU(A.q(B.Y,A.bH(j,s,B.as,B.N),B.e,j,B.q4,h.c.d,j,j,j,j,B.j1,j,j,j),2),A.aU(A.ol(!0,B.H0,j,j,j,A.e("qoutaCertificate"),"https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg",!0),1)],t.C),j,10),B.j,B.k,B.i,j)}return i},
 $S:9}
 A.ay7.prototype={
 $1(a){var s=0,r=A.x(t.H),q=this,p
