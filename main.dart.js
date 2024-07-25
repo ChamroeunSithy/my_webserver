@@ -113124,7 +113124,7 @@ return A.w($async$xZ,r)},
 I9(a){return this.aHp(a)},
 aHp(a){var s=0,r=A.x(t.G7),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$I9=A.t(function(a1,a2){if(a1===1)return A.u(a2,r)
-while(true)switch(s){case 0:e=A.cw("https://cors-anywhere.herokuapp.com/https://api.beta.fwcms.co/api/v1/companies/profile",0,null)
+while(true)switch(s){case 0:e=A.cw("https://api.beta.fwcms.co/api/v1/companies/profile",0,null)
 d=t.N
 c=A.aH(["Authorization","Bearer "+A.j(p.cx.gi(0)),"Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Headers",u.d],d,d)
 s=3
@@ -113290,7 +113290,7 @@ I8(){var s=0,r=A.x(t.pN),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a
 var $async$I8=A.t(function(d1,d2){if(d1===1)return A.u(d2,r)
 while(true)switch(s){case 0:c9=t.N
 s=3
-return A.r(A.tM(A.cw("https://cors-anywhere.herokuapp.com/https://api.beta.fwcms.co/api/v1/companies/detail",0,null),null,A.aH(["Authorization","Bearer "+A.j(p.cx.gi(0)),"Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Headers",u.d],c9,c9)),$async$I8)
+return A.r(A.tM(A.cw("https://api.beta.fwcms.co/api/v1/companies/detail",0,null),null,A.aH(["Authorization","Bearer "+A.j(p.cx.gi(0)),"Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Headers",u.d],c9,c9)),$async$I8)
 case 3:d0=d2
 c9=d0.b
 if(c9===200){c9=J.V(B.a3.cS(0,A.bY(J.V(A.bX(d0.e).c.a,"charset")).be(0,d0.w),null),"data")

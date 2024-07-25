@@ -1,6 +1,6 @@
 {
-    "name": "fwcms_project",
-    "short_name": "fwcms_project",
+    "name": "FWCMS",
+    "short_name": "FWCMS",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
