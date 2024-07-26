@@ -116227,7 +116227,7 @@ A.al(p).toString
 r=r.d
 if(r==null){r=self.window.devicePixelRatio
 if(r===0)r=1}p=t.p
-q=A.Ll(1550,A.Gw(new A.bw(B.bS,n,B.K,B.x,A.a([A.aR(0,A.q(n,n,B.e,B.w,n,n,n,s.aX(0,r).b/3,n,n,n,n,n,q.a),n,n,n,n,n,n),A.aR(n,A.q(n,n,B.e,n,n,new A.aD(n,A.f_(B.r,B.bz,new A.io("assets/image/LogoMLVT.png",1,n,n),n,0.08,1),n,n,n,n,B.v),n,350,n,n,n,n,n,350),n,n,n,n,100,n),A.q(n,A.an(A.Y(A.a([A.o(A.e("fwcmsTitle"),n,n,n,n,A.T3(B.w),B.G,n),A.o(A.e("fwcmsDes"),n,n,n,n,A.fr(B.d,1.8),B.d3,n),B.q,A.aU(A.ju(n,B.y,B.EN,new A.ati(o),3,B.mD,B.bw),1)],p),10,n),B.j,B.k,B.i,B.n),B.e,n,n,n,n,n,n,n,B.rM,n,n,n)],p),n),B.qw))
+q=A.Ll(1550,A.Gw(new A.bw(B.bS,n,B.K,B.x,A.a([A.aR(0,A.q(n,n,B.e,B.w,n,n,n,s.aX(0,r).b/3,n,n,n,n,n,q.a),n,n,n,n,n,n),A.aR(n,A.q(n,n,B.e,n,n,new A.aD(n,A.f_(B.r,B.bz,new A.io("assets/image/LogoMLVTBlur.png",1,n,n),n,1,1),n,n,n,n,B.v),n,350,n,n,n,n,n,350),n,n,n,n,100,n),A.q(n,A.an(A.Y(A.a([A.o(A.e("fwcmsTitle"),n,n,n,n,A.T3(B.w),B.G,n),A.o(A.e("fwcmsDes"),n,n,n,n,A.fr(B.d,1.8),B.d3,n),B.q,A.aU(A.ju(n,B.y,B.EN,new A.ati(o),3,B.mD,B.bw),1)],p),10,n),B.j,B.k,B.i,B.n),B.e,n,n,n,n,n,n,n,B.rM,n,n,n)],p),n),B.qw))
 o.c.yb(0,2)
 return new A.bw(B.X,n,B.K,B.x,A.a([A.yL(n,o.d.ax,n,n,B.a1,A.a([q,A.BJ(new A.kF(new A.atj(o),3,!0,!0,!0,n))],p)),new A.aI(new A.atk(o),n),A.aR(n,A.cT(n,A.h3(n,new A.dD(A.e("flag"),n,n),n,15),B.y,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.atl(o),n,n,n,n,n,n,!1,B.ac),n,n,n,22,22,n)],p),n)}}
 A.atm.prototype={
@@ -116346,7 +116346,7 @@ A.al(r).toString
 r=$.bt().d
 if(r==null){r=self.window.devicePixelRatio
 if(r===0)r=1}q=t.p
-r=A.Ll(3000,A.Gw(new A.bw(B.bS,o,B.K,B.x,A.a([A.aR(0,A.q(o,o,B.e,B.w,o,o,o,2300,o,o,o,o,o,s.aX(0,r).a),o,o,o,o,o,o),A.aR(o,A.q(o,o,B.e,o,o,new A.aD(o,A.f_(B.r,B.bz,new A.io("assets/image/LogoMLVT.png",1,o,o),o,0.08,1),o,o,o,o,B.v),o,350,o,o,o,o,o,350),o,o,o,o,100,o),A.q(o,A.an(A.Y(A.a([A.o(A.e("fwcmsTitle"),o,o,o,o,A.T3(B.w),B.G,o),A.o(A.e("fwcmsDes"),o,o,o,o,A.aY(B.d,o,1.8,o),B.d3,o),B.q,A.aU(A.ju(o,B.y,B.Y1,new A.atv(p),3,B.mD,B.bw),1)],q),10,o),B.j,B.k,B.i,B.n),B.e,o,o,o,o,o,o,o,B.LV,o,o,o)],q),o),B.iG))
+r=A.Ll(3000,A.Gw(new A.bw(B.bS,o,B.K,B.x,A.a([A.aR(0,A.q(o,o,B.e,B.w,o,o,o,2300,o,o,o,o,o,s.aX(0,r).a),o,o,o,o,o,o),A.aR(o,A.q(o,o,B.e,o,o,new A.aD(o,A.f_(B.r,B.bz,new A.io("assets/image/LogoMLVTBlur.png",1,o,o),o,1,1),o,o,o,o,B.v),o,350,o,o,o,o,o,350),o,o,o,o,100,o),A.q(o,A.an(A.Y(A.a([A.o(A.e("fwcmsTitle"),o,o,o,o,A.T3(B.w),B.G,o),A.o(A.e("fwcmsDes"),o,o,o,o,A.aY(B.d,o,1.8,o),B.d3,o),B.q,A.aU(A.ju(o,B.y,B.Y1,new A.atv(p),3,B.mD,B.bw),1)],q),10,o),B.j,B.k,B.i,B.n),B.e,o,o,o,o,o,o,o,B.LV,o,o,o)],q),o),B.iG))
 p.c.yb(0,1)
 return new A.bw(B.X,o,B.K,B.x,A.a([A.yL(o,p.d.ax,o,o,B.a1,A.a([r,A.BJ(new A.kF(new A.atw(p),3,!0,!0,!0,o))],q)),new A.aI(new A.atx(p),o),A.aR(o,A.cT(o,A.h3(o,new A.dD(A.e("flag"),o,o),o,15),B.y,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.aty(p),o,o,o,o,o,o,!1,B.ac),o,o,o,22,5,o)],q),o)}}
 A.atz.prototype={
