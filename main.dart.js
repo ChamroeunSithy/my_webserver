@@ -116186,7 +116186,7 @@ A.al(o).toString
 o=r.d
 if(o==null){o=self.window.devicePixelRatio
 if(o===0)o=1}p=A.aR(0,A.q(k,k,B.e,B.w,k,k,k,s.aX(0,o).b/2.5,k,k,k,k,k,p.a),k,k,k,k,k,k)
-o=A.aR(k,A.q(k,k,B.e,k,k,new A.aD(k,A.f_(B.r,B.bz,new A.io("assets/image/LogoMLVT.png",1,k,k),k,0.08,1),k,k,k,k,B.v),k,350,k,k,k,k,k,350),k,k,k,40,40,k)
+o=A.aR(k,A.q(k,k,B.e,k,k,new A.aD(k,A.f_(B.r,B.bz,new A.io("assets/image/LogoMLVTBlur.png",1,k,k),k,1,1),k,k,k,k,B.v),k,350,k,k,k,k,k,350),k,k,k,40,40,k)
 s=A.q(k,A.an(A.Y(A.a([A.o(A.e("fwcmsTitle"),k,k,k,k,A.b6C(B.w),B.G,k),A.o(A.e("fwcmsDes"),k,k,k,k,A.fr(B.d,2),B.d3,k)],t.LT),10,k),B.j,B.k,B.i,B.n),B.e,k,k,k,k,k,k,k,B.M8,k,k,k)
 n=$.a9().xr
 n=$.K.E$.z.h(0,n)
@@ -116330,7 +116330,7 @@ A.al(o).toString
 r=r.d
 if(r==null){r=self.window.devicePixelRatio
 if(r===0)r=1}o=t.p
-p=A.Ll(q.b*1.4,A.Gw(new A.bw(B.X,m,B.K,B.x,A.a([A.aR(0,A.q(m,m,B.e,B.w,m,m,m,s.aX(0,r).b/2.5,m,m,m,m,m,p.a),m,m,m,m,m,m),A.aR(m,A.q(m,m,B.e,m,m,new A.aD(m,A.f_(B.r,B.bz,new A.io("assets/image/LogoMLVT.png",1,m,m),m,0.08,1),m,m,m,m,B.v),m,350,m,m,m,m,m,350),m,m,m,40,40,m),A.q(m,A.an(A.Y(A.a([A.o(A.e("fwcmsTitle"),m,m,m,m,A.dV(B.w),B.G,m),A.o(A.e("fwcmsDes"),m,m,m,m,A.cL(B.d,2,m),B.d3,m)],t.LT),10,m),B.j,B.k,B.i,B.n),B.e,m,m,m,m,m,m,m,B.LX,m,m,m),A.aR(0,A.ju(m,B.y,B.Y0,new A.atp(n),3,B.rx,B.bw),m,m,0,0,320,m)],o),m),B.qw))
+p=A.Ll(q.b*1.4,A.Gw(new A.bw(B.X,m,B.K,B.x,A.a([A.aR(0,A.q(m,m,B.e,B.w,m,m,m,s.aX(0,r).b/2.5,m,m,m,m,m,p.a),m,m,m,m,m,m),A.aR(m,A.q(m,m,B.e,m,m,new A.aD(m,A.f_(B.r,B.bz,new A.io("assets/image/LogoMLVTBlur.png",1,m,m),m,1,1),m,m,m,m,B.v),m,350,m,m,m,m,m,350),m,m,m,40,40,m),A.q(m,A.an(A.Y(A.a([A.o(A.e("fwcmsTitle"),m,m,m,m,A.dV(B.w),B.G,m),A.o(A.e("fwcmsDes"),m,m,m,m,A.cL(B.d,2,m),B.d3,m)],t.LT),10,m),B.j,B.k,B.i,B.n),B.e,m,m,m,m,m,m,m,B.LX,m,m,m),A.aR(0,A.ju(m,B.y,B.Y0,new A.atp(n),3,B.rx,B.bw),m,m,0,0,320,m)],o),m),B.qw))
 n.c.yc(1)
 return new A.bw(B.X,m,B.K,B.x,A.a([A.yL(m,n.d.ax,m,m,B.a1,A.a([p,A.BJ(new A.kF(new A.atq(n),3,!0,!0,!0,m))],o)),new A.aI(new A.atr(n),m),A.aR(m,A.cT(m,A.h3(m,new A.dD(A.e("flag"),m,m),m,17),B.y,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ats(n),m,m,m,m,m,m,!1,B.ac),m,m,m,22,22,m)],o),m)},
 gatz(){var s,r,q,p=this,o=null
