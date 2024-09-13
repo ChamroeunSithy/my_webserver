@@ -110924,7 +110924,8 @@ $0(){A.aF($.y())
 A.eF(B.fW,!0)},
 $S:0}
 A.aiX.prototype={
-$0(){A.aF($.y())},
+$0(){A.aF($.y())
+window.location.reload()},
 $S:0}
 A.qS.prototype={
 gj6(){return A.a([A.c("myProfile"),A.c("empDetail"),A.c("updateProfile"),A.c("reqQuote"),A.c("reqGroupWork"),A.c("staffList"),A.c("forEmpContract")],t.s)},
