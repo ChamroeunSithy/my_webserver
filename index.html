@@ -59,6 +59,16 @@
         top: 0px;
       }
     </style>
+    <script>
+      var dartPdfJsVersion = "3.2.146";
+    </script>
+    <script>
+      var dartPdfJsBaseUrl =
+        "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.2.146/";
+    </script>
+    <script>
+      var dartPdfJsBaseUrl = "assets/js/pdf/3.2.146/";
+    </script>
   </head>
   <body style="overflow: hidden">
     <div id="loading_indicator" class="container">
@@ -76,5 +86,10 @@
       </footer>
     </div>
     <script src="flutter_bootstrap.js" async></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <script type="text/javascript">
+      pdfjsLib.GlobalWorkerOptions.workerSrc =
+        "//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js";
+    </script>
   </body>
 </html>
