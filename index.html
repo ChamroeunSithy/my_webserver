@@ -1,59 +1,99 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<html lang="kh">
+  <head>
+    <base href="/" />
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="A new Flutter project." />
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="fwcms_project" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+    <title>FWCMS</title>
+    <link rel="manifest" href="manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="minia_web_project">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-
-  <title>minia_web_project</title>
-  <link rel="manifest" href="manifest.json">
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1046258963";
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
-</head>
-<body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
-</body>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20vh;
+        flex-direction: column;
+      }
+      .indicator {
+        width: 28vw;
+      }
+      .footer {
+        background-color: #063455;
+        justify-content: start;
+        align-items: start;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 45px;
+        color: white;
+        font-size: 12px;
+        padding-left: 30px;
+        margin: 0;
+      }
+      .battambang-regular {
+        font-family: "Battambang", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+        position: absolute;
+        top: 0px;
+      }
+    </style>
+    <script>
+      var dartPdfJsVersion = "3.2.146";
+    </script>
+    <script>
+      var dartPdfJsBaseUrl =
+        "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.2.146/";
+    </script>
+    <script>
+      var dartPdfJsBaseUrl = "assets/js/pdf/3.2.146/";
+    </script>
+  </head>
+  <body style="overflow: hidden">
+    <div id="loading_indicator" class="container">
+      <img
+        class="indicator"
+        src="logosplash.png"
+        style="justify-content: center; display: flex; width: 20; height: 20"
+        alt="Loading..."
+      />
+      <footer class="footer">
+        <p class="battambang-regular">
+          &copy; ២០២៤ រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ - ក្រសួងការងារ
+          និងបណ្តុះបណ្តាលវិជ្ជាជីវៈនៃព្រះរាជាណាចក្រកម្ពុជា.
+        </p>
+      </footer>
+    </div>
+    <script src="flutter_bootstrap.js" async></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <script type="text/javascript">
+      pdfjsLib.GlobalWorkerOptions.workerSrc =
+        "//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js";
+    </script>
+  </body>
 </html>
