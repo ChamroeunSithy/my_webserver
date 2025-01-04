@@ -2,20 +2,16 @@
 <html lang="kh">
   <head>
     <base href="/" />
-
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
     <meta name="description" content="A new Flutter project." />
-
     <!-- iOS meta tags & icons -->
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="fwcms_project" />
     <link rel="apple-touch-icon" href="icons/Icon-192.png" />
-
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png" />
-
     <title>FWCMS</title>
     <link rel="manifest" href="manifest.json" />
     <link
@@ -24,11 +20,15 @@
     />
 
     <style>
+      html,
       body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        margin: 0;
+        position: fixed; /* Lock the position */
+        top: 0;
+        left: 0;
+        overflow: hidden; /* Prevent default scrolling */
+        width: 100%;
+        height: 100%;
+        margin: 0; /* Remove margin to fix full-screen */
       }
       .container {
         display: flex;
@@ -63,6 +63,10 @@
         top: 0px;
       }
     </style>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
     <script>
       var dartPdfJsVersion = "3.2.146";
     </script>
@@ -74,7 +78,7 @@
       var dartPdfJsBaseUrl = "assets/js/pdf/3.2.146/";
     </script>
   </head>
-  <body style="overflow: hidden">
+  <body>
     <div id="loading_indicator" class="container">
       <img
         class="indicator"
