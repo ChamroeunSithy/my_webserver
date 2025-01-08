@@ -35,6 +35,8 @@
         margin: 0;
         overflow: auto; /* Allow scrolling */
         -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+        position: fixed; /* Prevents layout shifts on scroll */
+        overscroll-behavior: none; /* Avoids iOS overscroll bounce */
       }
 
       #flutter_viewport {
