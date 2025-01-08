@@ -5,10 +5,6 @@
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
     <meta name="description" content="A new Flutter project." />
 
     <!-- iOS meta tags & icons -->
@@ -28,37 +24,22 @@
     />
 
     <style>
-      /* General styles */
-      html,
       body {
-        height: 100%;
-        margin: 0;
-        overflow: auto; /* Allow scrolling */
-        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
-        position: fixed; /* Prevents layout shifts on scroll */
-        overscroll-behavior: none; /* Avoids iOS overscroll bounce */
-      }
-
-      #flutter_viewport {
-        height: 100vh !important;
-        overflow: auto;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      /* Center loading indicator */
-      .container {
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+      }
+      .container {
+        display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
+        padding-top: 20vh;
+        flex-direction: column;
       }
-
       .indicator {
         width: 28vw;
       }
-
-      /* Footer styles */
       .footer {
         background-color: #063455;
         justify-content: start;
@@ -73,8 +54,6 @@
         padding-left: 30px;
         margin: 0;
       }
-
-      /* Battambang font style */
       .battambang-regular {
         font-family: "Battambang", system-ui;
         font-weight: 400;
@@ -84,14 +63,18 @@
         top: 0px;
       }
     </style>
-
     <script>
       var dartPdfJsVersion = "3.2.146";
+    </script>
+    <script>
       var dartPdfJsBaseUrl =
         "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.2.146/";
     </script>
+    <script>
+      var dartPdfJsBaseUrl = "assets/js/pdf/3.2.146/";
+    </script>
   </head>
-  <body>
+  <body style="overflow: hidden">
     <div id="loading_indicator" class="container">
       <img
         class="indicator"
